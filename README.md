@@ -17,7 +17,7 @@ This is a multi-part exercise
 
 ## Getting started
 Clone this repository:
-`git clone <repository-url>`
+`git clone git@github.com:csmerrell-biz/search-prototype.git`
 
 Install dependencies:
 `npm ci`
