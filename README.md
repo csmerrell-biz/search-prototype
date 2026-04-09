@@ -26,6 +26,11 @@ Install dependencies:
 npm ci
 ```
 
+Run the dev build:
+```bash
+npm run dev
+```
+
 Begin the interview by opening [./requestedSearchFeature.png](./requestedSearchFeature.png). The interviewer will explain what the image represents, and how it relates to the interview.
 
 ## Exercise 1: Creating Clarity from Ambiguity - Complexity & Risk Estimation
