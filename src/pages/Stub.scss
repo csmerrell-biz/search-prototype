@@ -1,0 +1,21 @@
+$accent: #aa3bff;
+$radius: 8px;
+
+.scss-demo {
+  background: rgba($accent, 0.1);
+  border: 2px solid rgba($accent, 0.4);
+  border-radius: $radius;
+  padding: 24px;
+  color: var(--text-h);
+
+  h2 {
+    margin: 0 0 8px;
+    font-size: 18px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text);
+  }
+}
