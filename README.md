@@ -17,10 +17,14 @@ This is a multi-part exercise
 
 ## Getting started
 Clone this repository:
-`git clone git@github.com:csmerrell-biz/search-prototype.git`
+```bash
+git clone git@github.com:csmerrell-biz/search-prototype.git
+```
 
 Install dependencies:
-`npm ci`
+```bash
+npm ci
+```
 
 Begin the interview by opening [./requestedSearchFeature.png](./requestedSearchFeature.png). The interviewer will explain what the image represents, and how it relates to the interview.
 
