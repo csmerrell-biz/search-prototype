@@ -8,9 +8,17 @@ function Readme() {
       <Link to="/" className="inline-block mb-2 text-sm text-[var(--accent)] no-underline hover:underline">
         ← Home
       </Link>
-      <article className="prose dark:prose-invert max-w-none">
-        <ReactMarkdown>{readme}</ReactMarkdown>
-      </article>
+      <div className="flex justify-center">
+        <article className="prose dark:prose-invert max-w-[1200px]">
+          <ReactMarkdown components={{
+            img: ({ src, alt, ...props }) => (
+              <img src={src?.replace(/^public\//, '/')} alt={alt} {...props} />
+            )
+          }}>
+            {readme}
+          </ReactMarkdown>
+        </article>
+      </div>
     </main>
   )
 }

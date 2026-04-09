@@ -31,7 +31,9 @@ Run the dev build:
 npm run dev
 ```
 
-Begin the interview by opening [./requestedSearchFeature.png](./requestedSearchFeature.png). The interviewer will explain what the image represents, and how it relates to the interview.
+Mockup of an "advanced search" feature we've been asked to build:
+
+![Requested Search Feature](public/requestedSearchFeature.png)
 
 ## Exercise 1: Creating Clarity from Ambiguity - Complexity & Risk Estimation
 You're estimating the full scope of work required to build out the new "Search" feature. Key context: 
